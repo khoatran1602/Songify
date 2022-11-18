@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { useDispatch } from "react-redux";
 import PageNotFound from "../ErrorPage";
 import { useAppSelector } from "../../store/hooks";
 import { selectGenreListId } from "../../store/playerSlice";
 import { useGetSongsByGenreQuery } from "../../store/songApi.slice";
 import { LoaderSong } from "../LoadingScreen/LoadingScreen";
-import { genres, Song, Songs } from "../../types";
+import { genres, Song } from "../../types";
 import SongCard from "../SongCard";
-import axios from "axios";
-import { songAPIEndpoint } from "../../config";
 
 const Discover = () => {
   const dispatch = useDispatch();

@@ -18,7 +18,6 @@ import Artist from "./components/Artist";
 import Search from "./components/Search/Search";
 import FavoriteList from "./components/FavoriteList";
 import TopCharts from "./components/TopCharts";
-import { songAPIEndpoint } from "./config";
 
 // const ButtonStyle = ({
 //   children,

@@ -24,8 +24,8 @@ export default function FavoriteList() {
   
 
   return (
-    <div className="flex flex-col bg-[#191624]">
-      <div className="flex flex-row bg-[#191624] ">
+    <div className="flex flex-col bg-[#191624] h-screen">
+      <div className="flex flex-row bg-[#191624]">
         <SideBar />
         <div className="flex flex-col">
           <Searchbar />
