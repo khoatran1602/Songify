@@ -1,5 +1,4 @@
-import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { firebaseAuth } from "../fb";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { AppUser } from "../types";
 
 interface InitialStateProps {
